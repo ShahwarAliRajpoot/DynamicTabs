@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Tabs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Dynamic Tabs</h1>
+
+      <nav class="navbar">
+        <a class="forActive" onclick="tabActive(this);" href="javascript:void(0);">Apple</a>
+        <a class="forActive" onclick="tabActive(this);" href="javascript:void(0);">Mango</a>
+        <a class="forActive" onclick="tabActive(this);" href="javascript:void(0);">Banana</a>
+        <a class="forActive" onclick="tabActive(this);" href="javascript:void(0);">Orange</a>
+        <a class="forActive" onclick="tabActive(this);" href="javascript:void(0);">Strawberry</a>
+      </nav>
+
+      <div class="content" id="Apple">
+        <h2>Apple</h2>
+        <p class="para1">
+          An apple is an edible fruit produced by an apple tree. Apple trees are
+          cultivated worldwide and are the most widely grown species in the
+          genus Malus. The tree originated in Central Asia, where its wild
+          ancestor, Malus sieversii, is still found.
+        </p>
+      </div>
+
+      <div class="content" id="Mango">
+        <h2>Mango</h2>
+        <p class="para1">
+          A mango is an edible stone fruit produced by the tropical tree
+          Mangifera indica. It is believed to have originated in southern Asia,
+          particularly in eastern India, Bangladesh, and the Andaman Islands.[1]
+          M. indica has been cultivated in South and Southeast Asia since
+          ancient times resulting in two types of modern mango cultivars: the
+          "Indian type" and the "Southeast Asian type".
+        </p>
+      </div>
+
+      <div class="content" id="Banana">
+        <h2>Banana</h2>
+        <p class="para1">
+          A banana is an elongated, edible fruit botanically a berry produced by
+          several kinds of large herbaceous flowering plants in the genus Musa.
+          In some countries, bananas used for cooking may be called "plantains",
+          distinguishing them from dessert bananas
+        </p>
+      </div>
+
+      <div class="content" id="Orange">
+        <h2>Orange</h2>
+        <p class="para1">
+          An orange is a fruit of various citrus species in the family Rutaceae;
+          it primarily refers to Citrus sinensis, which is also called sweet
+          orange, to distinguish it from the related Citrus aurantium, referred
+          to as bitter orange
+        </p>
+      </div>
+
+      <div class="content" id="Strawberry">
+        <h2>Strawberry</h2>
+        <p class="para1">
+          The garden strawberry (or simply strawberry; Fragaria ananassa)[1]
+          is a widely grown hybrid species of the genus Fragaria, collectively
+          known as the strawberries, which are cultivated worldwide for their
+          fruit. The fruit is widely appreciated for its characteristic aroma,
+          bright red color,
+        </p>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
